@@ -1,3 +1,15 @@
-remote_theme: pages-themes/minimal@v0.2.0
+title: "KOICA"
+description: KOICA-UPLB-IRRI Project
+theme: jekyll-theme-cayman
+ 
+# Add custom CSS
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-include-cache
+ 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+      css: "/assets/style.css"
