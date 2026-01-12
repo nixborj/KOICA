@@ -74,11 +74,3 @@ body {
 .content table td {
   border: 1px solid #999;
 }
-
-/* Image behavior */
-.content table td:first-child img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
-}
