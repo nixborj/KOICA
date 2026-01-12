@@ -74,12 +74,6 @@ body {
 .content table td {
   border: 1px solid #999;
 }
-/* Image cell */
-.content table td:first-child {
-  width: 170px;              /* controls photo column */
-  text-align: center;
-  vertical-align: middle;
-}
 
 /* Image behavior */
 .content table td:first-child img {
