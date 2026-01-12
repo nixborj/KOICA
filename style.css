@@ -47,3 +47,30 @@ body {
   flex: 1;
   padding: 30px;
 }
+
+/* Make all tables same width */
+.content table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Control column widths */
+.content table td:first-child {
+  width: 170px; /* image column */
+}
+
+.content table td:nth-child(2) {
+  width: 220px; /* label column */
+}
+
+/* Allow long text to wrap instead of resizing table */
+.content table td {
+  word-wrap: break-word;
+  vertical-align: top;
+}
+.content table,
+.content table td {
+  border: 1px solid #999;
+}
